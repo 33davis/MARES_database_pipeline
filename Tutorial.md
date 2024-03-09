@@ -8,7 +8,7 @@ If you're here and wanting to use MARES, i've compiled a brief tutorial here on 
 
 `taxa.list` - include the list of taxa you want here. 
 
-`./coi_ret_ebot_taxonomy3.plx` - line 86 will require your email added to it.
+`./coi_ret/ebot_taxonomy3.plx` - line 86 will require your email added to it.
 
 `./coi_ret/grab_many_gb_catch_errors_auto_CO1_year.plx` - line 32 requires your email too, you may also wish to modify the search terms on line 29.
 
