@@ -29,7 +29,7 @@ chomp $taxonlist;
 $term = "(\"CO1\"[GENE] OR \"COI\"[GENE] OR \"COX1\"[GENE] OR \"COXI\"[GENE]) AND \"Eukaryota\"[ORGN] AND 2003:2021[PDAT] AND \"BARCODE\"[KYWD]) AND (".$taxonlist.")";
 
 $factory = Bio::DB::EUtilities -> new (-eutil => 'esearch',
-										-email => 'EMAIL@HERE', ### Add your email here
+										-email => 'emily.davis@utas.edu.au', ### Add your email here
 										-db => 'nucleotide',
 										-term => $term,
 										-usehistory => 'y');
