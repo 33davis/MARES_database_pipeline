@@ -122,8 +122,8 @@ May the force be with you!
 ### List of Files that need modification before running the step-by-step MARES pipeline
 
 Email authentification: 
-* ./coi_ret/ebot_taxonomy3.plx - line 86 requires email
-* ./coi_ret/grab_many_gb_catch_errors_auto_CO1_year.plx - line 32 requires email
+* ./coi_ret/ebot_taxonomy3.plx - line 86 requires email   ### done on 01.04.2024
+* ./coi_ret/grab_many_gb_catch_errors_auto_CO1_year.plx - line 32 requires email  ### done on 01.04.2024
 
 NCBI taxonomy - modify only if OPTION 2 was used to install dependencies. 
 * ./coi_ret/taxonomy_crawl_for_genus_species_list.plx lines 29 and 30 require location of names.dmp and nodes.dmp files
