@@ -135,6 +135,21 @@ NCBI taxonomy - modify only if OPTION 2 was used to install dependencies.
 First, it is necessary to modify the **taxa.list** file - this file contains the list of taxa that you are interested in. 
 You can use different lists for BOLD or NCBI, or the same for both. 
 
+############# 04.02.2024 ################
+
+# i wanted to include alternate taxa list of marine species 
+
+(1)
+### all accepted marine antarctic species from marine antartic register (no terrestrial classification) (Bioinformatics Documentation/RAMS_taxlist_20240402_acceptedonly) [912 records of family names] named taxa1.list 
+
+(2) 
+### all accepted marine anctactic species from marine antarctic regsiter (terrestiral included)
+ to access full list need to register [1664 records of family names]
+
+(3)
+ ### all accepted antarctic species from WoRMS antartic register 
+ to access full list need to register [5961 records of family names]
+
 Then, from the terminal run the Step1 script :
 
 ```
