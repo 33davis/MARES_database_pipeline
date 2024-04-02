@@ -176,6 +176,9 @@ Note - if there are no sequences in NCBI for any of your chosen taxa, this will 
 "Use of uninitialized value $count in numeric lt (<) at ../../coi_ret/grab_many_gb_catch_errors_auto_CO1_year.plx line 58."
 
 
+################ 02.04.2024 ####################
+updated the PDAT for this to 2003:2022 to match last update to MEGAN/MALT/HOPS
+
 ## Step 2: BOLD Retrieval
 
 The Step2_retrieve_bold.r script takes a list of taxa from **taxa.list** and retrieves the BOLD genetic data, and formats this data as a fasta file. 
